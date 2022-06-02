@@ -3,7 +3,8 @@
     <BaseHeader/>
     <BaseMainTop/>
     <BaseMainBottom/>
-    <BaseFooter/>
+    <BaseFooterTop/>
+    <BaseFooterBottom/>
   </div>
 </template>
 
@@ -11,7 +12,8 @@
 import BaseHeader from './components/BaseHeader.vue'
 import BaseMainTop from './components/BaseMainTop.vue'
 import BaseMainBottom from './components/BaseMainBottom.vue'
-import BaseFooter from './components/BaseFooter.vue'
+import BaseFooterTop from './components/BaseFooterTop.vue'
+import BaseFooterBottom from './components/BaseFooterBottom.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     BaseHeader,
     BaseMainTop,
     BaseMainBottom,
-    BaseFooter,
+    BaseFooterTop,
+    BaseFooterBottom,
   }
 }
 </script>
