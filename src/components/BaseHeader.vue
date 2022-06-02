@@ -1,6 +1,6 @@
 <template>
-    <header>
-        <div class="container">
+    <header class="header">
+        <div class="header__container">
             <nav class="header__nav">
                 <div class="logo-div">
                     <img class="logo" src="../assets/img/dc-logo.png"/>
@@ -26,32 +26,42 @@
 
 <style lang="scss" scoped>
 
-.header {
+.header {  
+
+    &__container {
+        height: 80px;
+        margin: auto;
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
     &__nav { 
+            width: 100%;
             display: flex;
+            align-items: center;
             justify-content: space-between;
 
         ul {
             display: flex;
-            align-items: center;
             list-style-type: none;
 
             li {
-                margin-right: 10px;
-                font-size: 13px;
+                margin-right: 20px;
+                font-size: 14px;
+                color: black;
             }
         }
     }
 }
 
-.container {
-    margin: auto;
-    width: 70%;
-    height: 100%;
+.logo {
+    height: 60px;
 }
 
-.logo {
-    height: 70px;
+.logo-div {
+    display: flex;
+    align-items: flex-end;
 }
 
 </style>

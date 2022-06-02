@@ -27,7 +27,7 @@
     </section>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 section {
     background-color: rgb(2, 130, 249);
@@ -50,7 +50,8 @@ section {
 }
 
 .service {
-    margin-left: 100px;
+    margin-left: 50px;
+    width: 150px;
 }
 
 h2 {
