@@ -6,45 +6,45 @@
                 <div class="col">
                     <ul>
                         <li class="big">DC COMICS</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
                     </ul>
                     <ul>
                         <li class="big">SHOP</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
                     </ul>
                 </div>
 
                 <div class="col">
                     <ul>
                         <li class="big">DC</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
                     </ul>
                 </div>
                 <div class="col">
                     <ul>
                         <li class="big">SITES</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
-                        <li>CIAO</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
+                        <li>Testo</li>
                     </ul>
                 </div>
             </div>

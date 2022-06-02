@@ -8,19 +8,19 @@
                 </div>
                 <div class="service">
                     <img class="item" src="../assets/img/buy-comics-merchandise.png" alt="">
-                    <h2>DIGITAL COMICS</h2>
+                    <h2>DC MERCHANDISE</h2>
                 </div>
                 <div class="service">
                     <img class="item" src="../assets/img/buy-comics-subscriptions.png" alt="">
-                    <h2>DIGITAL COMICS</h2>
+                    <h2>SUBSCRIPTIONS</h2>
                 </div>
                 <div class="service">
                     <img class="item" src="../assets/img/buy-comics-shop-locator.png" alt="">
-                    <h2>DIGITAL COMICS</h2>
+                    <h2>COMIC SHOP LOCATOR</h2>
                 </div>
                 <div class="service">
                     <img class="item" src="../assets/img/buy-dc-power-visa.svg" alt="">
-                    <h2>DIGITAL COMICS</h2>
+                    <h2>DC POWER VISA</h2>
                 </div>
             </div>
         </div>

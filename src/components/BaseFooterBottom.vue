@@ -44,7 +44,7 @@ button {
 }
 
 .social * {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 h2 {
