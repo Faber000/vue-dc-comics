@@ -1,6 +1,6 @@
 <template>
-    <section>
-        <div class="container">
+    <section class="section">
+        <div class="section__container">
             <div class="services">
                 <div class="service">
                     <img class="item" src="../assets/img/buy-comics-digital-comics.png" alt="">
@@ -29,18 +29,19 @@
 
 <style lang="scss" scoped>
 
-section {
+.section {
     background-color: rgb(2, 130, 249);
     height: 120px;
-}
 
-.container {
-    margin: auto;
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    &__container {
+        margin: auto;
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 .services, .service {
@@ -51,7 +52,7 @@ section {
 
 .service {
     margin-left: 50px;
-    width: 150px;
+    width: 200px;
 }
 
 h2 {
