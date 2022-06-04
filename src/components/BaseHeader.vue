@@ -48,7 +48,7 @@
 
             li {
                 margin-right: 20px;
-                font-size: 14px;
+                font-size: 17px;
                 color: black;
             }
         }

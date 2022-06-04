@@ -35,7 +35,8 @@ button {
     border: 3px solid rgb(2, 130, 249);
     color: white;
     height: 50px;
-    width: 100px;
+    width: 150px;
+    font-size: 20px;
 }
 
 .social {

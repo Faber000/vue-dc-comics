@@ -57,7 +57,7 @@
 
 h2 {
     color: white;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .item {
