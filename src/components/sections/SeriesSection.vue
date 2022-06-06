@@ -102,7 +102,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 section {
     height: 600px;

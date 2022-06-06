@@ -1,9 +1,7 @@
 <template>
-    <div class="container">
-        <div class="serie">
-            <img :src="image" :alt="title">
-            <h3>{{title}}</h3>
-        </div>
+    <div class="serie">
+        <img :src="image" :alt="title">
+        <h3>{{title}}</h3>
     </div>
 </template>
 
