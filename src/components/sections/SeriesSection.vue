@@ -21,6 +21,7 @@ export default {
     },
 
     data() {
+
         return {
             series: [
             {
@@ -127,7 +128,6 @@ li {
     height: 100%;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }

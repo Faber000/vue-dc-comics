@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
-     <div class="serie">
-        <img :src="image" :alt="title">
-        <h3>{{title}}</h3>
-     </div>
-  </div>
+    <div class="container">
+        <div class="serie">
+            <img :src="image" :alt="title">
+            <h3>{{title}}</h3>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ export default {
         image: {
             type: String,
         },
-    }
+    },
 }
 </script>
 
@@ -27,7 +27,7 @@ export default {
         width: 100%;
         height: 100%;
     }
-    
+
     h3 {
         font-size: 15px;
         color: white;
