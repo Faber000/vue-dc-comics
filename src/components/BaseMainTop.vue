@@ -1,23 +1,23 @@
 <template>
     <section>
-        <div class="hero-container">
-
-        </div>
-        <div class="container">
-            <h1>Content goes here</h1>
-        </div>
+        <div class="hero-container"></div>
+        <SeriesSection/>
     </section>
 </template>
 
-<style lang="scss" scoped>
+<script>
+import SeriesSection from './sections/SeriesSection.vue';
 
-.container {
-    background-color: black;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+export default {
+    name: 'BaseMainTop',
+    components: {
+      SeriesSection,
+    }
 }
+</script>
+
+
+<style lang="scss" scoped>
 
 h1 {
     color: white;
