@@ -1,11 +1,13 @@
 <template>
     <section>
         <div class="container">
+            <div class="title">Current Series</div>
             <ul class="series__list">
                 <li v-for="(serie, index) in series" :key="index">
                     <SeriesCard :image="serie.thumb" :title="serie.series"/>
                 </li>
             </ul>
+             <button>Load More</button>
         </div>
     </section>
 </template>
@@ -105,7 +107,7 @@ export default {
 <style lang="scss" scoped>
 
 section {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-color: black;
 }
@@ -124,11 +126,37 @@ li {
 }
 
 .container {
+    position: relative;
     width: 70%;
     height: 100%;
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+button {
+    margin-top: 50px;
+    background-color: rgb(2, 130, 249);
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.title {
+    color: white;
+    background-color: rgb(2, 130, 249);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    position: absolute;
+    top: -25px;
+    left: 10px;
+}
+
 </style>

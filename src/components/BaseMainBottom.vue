@@ -2,7 +2,7 @@
     <section class="section">
         <div class="section__container">
             <div class="services">
-                <div class="service">
+                <div class="service first">
                     <img class="item" src="../assets/img/buy-comics-digital-comics.png" alt="">
                     <h2>DIGITAL COMICS</h2>
                 </div>
@@ -53,6 +53,10 @@
 .service {
     margin-left: 50px;
     width: 200px;
+}
+
+.first {
+    margin-left: 0;
 }
 
 h2 {
